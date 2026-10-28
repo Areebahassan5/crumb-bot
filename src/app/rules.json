@@ -1,0 +1,62 @@
+[
+  {
+    "intent": "greeting",
+    "keywords": ["hello", "hi", "hey", "salam", "assalam o alaikum", "aoa"],
+    "reply": "Welcome to Crumb & Co.! 🧁 I'm your bakery assistant. Ask me about cakes, cupcakes, flavors, prices, custom cakes, or delivery."
+  },
+  {
+    "intent": "cakes",
+    "keywords": ["cake", "cakes", "birthday cake", "chocolate cake", "vanilla cake"],
+    "reply": "Our sample cake menu includes Chocolate Cake, Vanilla Cake, Red Velvet Cake, and Fudge Cake. 🎂 Illustrative prices start from PKR 1,800."
+  },
+  {
+    "intent": "cupcakes",
+    "keywords": ["cupcake", "cupcakes", "muffin", "muffins"],
+    "reply": "Our sample cupcake menu includes Chocolate, Vanilla, and Red Velvet cupcakes. Illustrative prices start from PKR 250 per cupcake."
+  },
+  {
+    "intent": "brownies",
+    "keywords": ["brownie", "brownies", "fudge", "chocolate brownie"],
+    "reply": "Our brownie menu includes classic chocolate brownies and rich fudge brownies. Sample prices start from PKR 200 per piece."
+  },
+  {
+    "intent": "flavors",
+    "keywords": ["flavor", "flavors", "flavour", "flavours", "taste"],
+    "reply": "Popular sample flavors include Chocolate, Vanilla, Red Velvet, Strawberry, and Coffee. Flavor availability depends on the selected product."
+  },
+  {
+    "intent": "prices",
+    "keywords": ["price", "prices", "cost", "how much", "rate", "rates"],
+    "reply": "Here is our illustrative price guide: Cakes from PKR 1,800, cupcakes from PKR 250 each, and brownies from PKR 200 each. Actual prices may vary."
+  },
+  {
+    "intent": "custom_cakes",
+    "keywords": ["custom cake", "customized cake", "design a cake", "personalized cake", "cake design"],
+    "reply": "Let's plan your dream cake! 🎂 Choose a flavor, size, design, and occasion. This demo can provide information, but it cannot submit a real bakery order."
+  },
+  {
+    "intent": "delivery",
+    "keywords": ["delivery", "deliver", "shipping", "home delivery", "delivery charges"],
+    "reply": "Delivery availability, timing, and charges depend on your location. Please contact the bakery to confirm the details."
+  },
+  {
+    "intent": "pickup",
+    "keywords": ["pickup", "pick up", "collect", "collection"],
+    "reply": "Pickup may be arranged depending on bakery availability. Please confirm the collection time and location with the bakery."
+  },
+  {
+    "intent": "timings",
+    "keywords": ["timing", "timings", "opening hours", "open", "closing time"],
+    "reply": "Our demo bakery does not have verified opening hours yet. Please check the bakery's official schedule before visiting."
+  },
+  {
+    "intent": "contact",
+    "keywords": ["contact", "phone", "number", "address", "location"],
+    "reply": "Please use the bakery's official contact details to ask about products and orders. This demo does not have a real phone number or address."
+  },
+  {
+    "intent": "thanks",
+    "keywords": ["thank you", "thanks", "shukriya"],
+    "reply": "You're welcome! 💕 Thanks for visiting Crumb & Co. Have a sweet day!"
+  }
+]
